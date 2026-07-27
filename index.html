@@ -1,0 +1,678 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Cornaq Consultoría IT — Soluciones de soporte técnico, infraestructura IT y consultoría tecnológica para empresas en Buenos Aires, Argentina.">
+  <meta name="keywords" content="consultoría IT, soporte técnico, infraestructura IT, redes, servidores, seguridad informática, Buenos Aires, Argentina">
+  <meta name="author" content="Cornaq Consultoría IT">
+  <meta name="robots" content="index, follow">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Cornaq Consultoría IT — Soluciones IT para empresas">
+  <meta property="og:description" content="Brindamos soporte técnico, infraestructura y consultoría tecnológica para que tu empresa funcione sin interrupciones.">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="es_AR">
+
+  <link rel="icon" type="image/jpeg" href="images/logo-cornaq.jpg">
+  <title>Cornaq Consultoría IT — Soluciones IT para empresas</title>
+
+  <!-- Preconnect -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- Google Analytics placeholder -->
+  <!-- 
+  <script async src="https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'GA_MEASUREMENT_ID');
+  </script>
+  -->
+</head>
+<body>
+
+  <!-- ============================================
+       HEADER / NAVIGATION
+       ============================================ -->
+  <header class="header" id="header" role="banner">
+    <div class="container">
+      <a href="#" class="logo" aria-label="Cornaq Consultoría IT — Inicio">
+        <img src="images/logo-cornaq.jpg" alt="Cornaq Consultoría IT" class="custom-logo">
+      </a>
+
+      <nav class="nav" id="nav" role="navigation" aria-label="Navegación principal">
+        <a href="#nosotros" class="nav-link">Nosotros</a>
+        <a href="#servicios" class="nav-link">Servicios</a>
+        <a href="#beneficios" class="nav-link">Beneficios</a>
+        <a href="#proceso" class="nav-link">Proceso</a>
+        <a href="#testimonios" class="nav-link">Testimonios</a>
+        <a href="#contacto" class="nav-cta">Contactar</a>
+      </nav>
+
+      <button class="mobile-toggle" id="mobile-toggle" aria-label="Abrir menú" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ============================================
+       HERO SECTION
+       ============================================ -->
+  <section class="hero" id="inicio" aria-label="Sección principal">
+    <!-- Background image -->
+    <div class="hero-bg">
+      <img src="images/hero-bg.jpg" alt="" width="1920" height="1080" loading="eager" fetchpriority="high">
+    </div>
+
+    <!-- Animated grid -->
+    <div class="hero-grid" aria-hidden="true"></div>
+
+    <!-- Floating particles -->
+    <div class="hero-particles" aria-hidden="true">
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+      <div class="particle"></div>
+    </div>
+
+    <!-- Glowing orbs -->
+    <div class="hero-orb hero-orb-1" aria-hidden="true"></div>
+    <div class="hero-orb hero-orb-2" aria-hidden="true"></div>
+
+    <div class="container">
+      <div class="hero-content">
+        <div class="hero-badge">
+          <span class="hero-badge-dot"></span>
+          Consultoría IT en Buenos Aires
+        </div>
+
+        <h1 class="hero-title">
+          Soluciones IT para empresas que necesitan <span class="highlight">resultados</span>
+        </h1>
+
+        <p class="hero-subtitle">
+          Brindamos soporte técnico, infraestructura y consultoría tecnológica para que tu empresa funcione sin interrupciones.
+        </p>
+
+        <div class="hero-buttons">
+          <a href="#contacto" class="btn btn-primary" id="hero-cta-primary">
+            Solicitar asesoramiento
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </a>
+          <a href="#servicios" class="btn btn-secondary" id="hero-cta-secondary">
+            Conocer servicios
+          </a>
+        </div>
+
+        <div class="hero-stats">
+          <div class="hero-stat">
+            <div class="hero-stat-value"><span data-count="150" data-suffix="+">0</span></div>
+            <div class="hero-stat-label">Clientes activos</div>
+          </div>
+          <div class="hero-stat">
+            <div class="hero-stat-value"><span data-count="99" data-suffix="%">0</span></div>
+            <div class="hero-stat-label">Uptime garantizado</div>
+          </div>
+          <div class="hero-stat">
+            <div class="hero-stat-value"><span data-count="24" data-suffix="/7">0</span></div>
+            <div class="hero-stat-label">Soporte disponible</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================
+       ABOUT SECTION
+       ============================================ -->
+  <section class="section about" id="nosotros" aria-label="Sobre nosotros">
+    <div class="container">
+      <div class="about-grid">
+        <!-- Image -->
+        <div class="about-image reveal">
+          <img src="images/about-team.jpg" alt="Equipo de Cornaq Consultoría IT trabajando en proyectos de infraestructura" width="600" height="400" loading="lazy">
+          <div class="about-image-overlay">
+            <div class="about-image-stat">
+              <div class="about-image-stat-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+              </div>
+              <div class="about-image-stat-text">
+                <strong>Desde 2023</strong>
+                <span>Transformando infraestructuras IT</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Content -->
+        <div class="about-content reveal reveal-delay-2">
+          <div class="section-label">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4M12 8h.01"/></svg>
+            Sobre Nosotros
+          </div>
+          <h2 class="section-title" style="text-align: left;">Tu aliado tecnológico de confianza</h2>
+          <p class="about-text">
+            Cornaq es una consultora IT con sede en Buenos Aires, enfocada en ayudar a empresas a <strong>optimizar su tecnología</strong>, reducir incidencias y mejorar la productividad. Brindamos soluciones modernas y soporte especializado, con atención personalizada para PyMEs y empresas que buscan un socio tecnológico confiable.
+          </p>
+          <p class="about-text">
+            Nuestro equipo combina experiencia en entornos corporativos con la agilidad de una consultora especializada, ofreciendo respuestas rápidas y soluciones escalables adaptadas a cada negocio.
+          </p>
+
+          <div class="about-features">
+            <div class="about-feature">
+              <div class="about-feature-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+              </div>
+              <span>Windows & Linux</span>
+            </div>
+            <div class="about-feature">
+              <div class="about-feature-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+              </div>
+              <span>Entornos híbridos</span>
+            </div>
+            <div class="about-feature">
+              <div class="about-feature-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+              </div>
+              <span>Cloud & On-Premise</span>
+            </div>
+            <div class="about-feature">
+              <div class="about-feature-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+              </div>
+              <span>Atención 24/7</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================
+       SERVICES SECTION
+       ============================================ -->
+  <section class="section services" id="servicios" aria-label="Nuestros servicios">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="section-label">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+          Servicios
+        </div>
+        <h2 class="section-title">Soluciones integrales para tu empresa</h2>
+        <p class="section-subtitle">Cubrimos todas las necesidades tecnológicas de tu negocio con servicios especializados y atención personalizada.</p>
+      </div>
+
+      <div class="services-grid">
+        <!-- Soporte Técnico -->
+        <div class="service-card reveal reveal-delay-1" id="service-support">
+          <div class="service-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12a9 9 0 0 1-9 9m9-9a9 9 0 0 0-9-9m9 9H3m9 9a9 9 0 0 1-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 0 1 9-9"/></svg>
+          </div>
+          <h3>Soporte Técnico</h3>
+          <p>Asistencia remota y presencial para resolver incidencias de forma rápida y eficiente. Mesa de ayuda dedicada para tu equipo.</p>
+        </div>
+
+        <!-- Servidores -->
+        <div class="service-card reveal reveal-delay-2" id="service-servers">
+          <div class="service-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="8" rx="2" ry="2"/><rect x="2" y="14" width="20" height="8" rx="2" ry="2"/><line x1="6" y1="6" x2="6.01" y2="6"/><line x1="6" y1="18" x2="6.01" y2="18"/></svg>
+          </div>
+          <h3>Servidores</h3>
+          <p>Administración y mantenimiento de servidores Windows y Linux. Configuración, optimización y monitoreo continuo.</p>
+        </div>
+
+        <!-- Redes y WiFi Empresarial -->
+        <div class="service-card reveal reveal-delay-3" id="service-networks">
+          <div class="service-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.55a11 11 0 0 1 14.08 0"/><path d="M1.42 9a16 16 0 0 1 21.16 0"/><path d="M8.53 16.11a6 6 0 0 1 6.95 0"/><line x1="12" y1="20" x2="12.01" y2="20"/></svg>
+          </div>
+          <h3>Redes y WiFi Empresarial</h3>
+          <p>Diseño, implementación y gestión de redes corporativas. Conectividad segura y de alto rendimiento.</p>
+        </div>
+
+        <!-- Seguridad Informática -->
+        <div class="service-card reveal reveal-delay-4" id="service-security">
+          <div class="service-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          </div>
+          <h3>Seguridad Informática</h3>
+          <p>Protección integral contra amenazas cibernéticas. Firewalls, antivirus corporativo, políticas de seguridad y auditorías.</p>
+        </div>
+
+        <!-- Backup y Recuperación -->
+        <div class="service-card reveal reveal-delay-5" id="service-backup">
+          <div class="service-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="1 4 1 10 7 10"/><path d="M3.51 15a9 9 0 1 0 2.13-9.36L1 10"/></svg>
+          </div>
+          <h3>Backup y Recuperación</h3>
+          <p>Soluciones de respaldo automático y planes de recuperación ante desastres para proteger los datos de tu empresa.</p>
+        </div>
+
+        <!-- VPN y Acceso Remoto -->
+        <div class="service-card reveal reveal-delay-6" id="service-vpn">
+          <div class="service-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
+          </div>
+          <h3>VPN y Acceso Remoto</h3>
+          <p>Implementación de VPN seguras para trabajo remoto. Conectividad cifrada entre sucursales y equipos distribuidos.</p>
+        </div>
+
+        <!-- Virtualización -->
+        <div class="service-card reveal reveal-delay-7" id="service-virtualization">
+          <div class="service-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="4" width="16" height="16" rx="2" ry="2"/><rect x="9" y="9" width="6" height="6"/><line x1="9" y1="1" x2="9" y2="4"/><line x1="15" y1="1" x2="15" y2="4"/><line x1="9" y1="20" x2="9" y2="23"/><line x1="15" y1="20" x2="15" y2="23"/><line x1="20" y1="9" x2="23" y2="9"/><line x1="20" y1="14" x2="23" y2="14"/><line x1="1" y1="9" x2="4" y2="9"/><line x1="1" y1="14" x2="4" y2="14"/></svg>
+          </div>
+          <h3>Virtualización</h3>
+          <p>Diseño e implementación de entornos virtualizados con VMware, Hyper-V y soluciones cloud para optimizar recursos.</p>
+        </div>
+
+        <!-- Consultoría IT -->
+        <div class="service-card reveal reveal-delay-8" id="service-consulting">
+          <div class="service-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06A1.65 1.65 0 0 0 4.68 15a1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06A1.65 1.65 0 0 0 9 4.68a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg>
+          </div>
+          <h3>Consultoría IT</h3>
+          <p>Asesoramiento estratégico para alinear la tecnología con los objetivos de tu negocio. Planificación y roadmap tecnológico.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================
+       BENEFITS SECTION
+       ============================================ -->
+  <section class="section benefits" id="beneficios" aria-label="Beneficios de elegir Cornaq">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="section-label" style="color: var(--blue-light); background: rgba(37, 99, 235, 0.15);">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          ¿Por qué Cornaq?
+        </div>
+        <h2 class="section-title">Lo que nos diferencia</h2>
+        <p class="section-subtitle">Cada empresa es única. Por eso, nuestro enfoque se adapta a tus necesidades reales con soluciones a medida.</p>
+      </div>
+
+      <div class="benefits-grid">
+        <!-- Atención personalizada -->
+        <div class="benefit-card reveal reveal-delay-1">
+          <div class="benefit-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+          </div>
+          <h3>Atención personalizada</h3>
+          <p>Un equipo dedicado que conoce tu infraestructura</p>
+        </div>
+
+        <!-- Respuesta rápida -->
+        <div class="benefit-card reveal reveal-delay-2">
+          <div class="benefit-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+          </div>
+          <h3>Respuesta rápida</h3>
+          <p>Tiempos de resolución mínimos ante incidencias</p>
+        </div>
+
+        <!-- Soluciones escalables -->
+        <div class="benefit-card reveal reveal-delay-3">
+          <div class="benefit-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="20" x2="12" y2="10"/><line x1="18" y1="20" x2="18" y2="4"/><line x1="6" y1="20" x2="6" y2="16"/></svg>
+          </div>
+          <h3>Soluciones escalables</h3>
+          <p>Infraestructura que crece junto con tu empresa</p>
+        </div>
+
+        <!-- Experiencia corporativa -->
+        <div class="benefit-card reveal reveal-delay-4">
+          <div class="benefit-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="7" width="20" height="14" rx="2" ry="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></svg>
+          </div>
+          <h3>Experiencia corporativa</h3>
+          <p>Conocimiento profundo en entornos empresariales</p>
+        </div>
+
+        <!-- Acompañamiento continuo -->
+        <div class="benefit-card reveal reveal-delay-5">
+          <div class="benefit-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+          </div>
+          <h3>Acompañamiento continuo</h3>
+          <p>Soporte proactivo y monitoreo permanente</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================
+       PROCESS SECTION
+       ============================================ -->
+  <section class="section process" id="proceso" aria-label="Cómo trabajamos">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="section-label">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
+          Proceso
+        </div>
+        <h2 class="section-title">Cómo trabajamos</h2>
+        <p class="section-subtitle">Un proceso claro y estructurado para garantizar resultados efectivos en cada proyecto.</p>
+      </div>
+
+      <div class="process-steps">
+        <!-- Paso 1 -->
+        <div class="process-step reveal reveal-delay-1">
+          <div class="process-step-number">01</div>
+          <h3>Relevamiento</h3>
+          <p>Analizamos tu infraestructura actual, necesidades y objetivos para entender el contexto completo de tu empresa.</p>
+        </div>
+
+        <!-- Paso 2 -->
+        <div class="process-step reveal reveal-delay-2">
+          <div class="process-step-number">02</div>
+          <h3>Diagnóstico</h3>
+          <p>Identificamos oportunidades de mejora, riesgos y definimos un plan de acción con prioridades claras.</p>
+        </div>
+
+        <!-- Paso 3 -->
+        <div class="process-step reveal reveal-delay-3">
+          <div class="process-step-number">03</div>
+          <h3>Implementación</h3>
+          <p>Ejecutamos las soluciones con mínimo impacto operativo, cumpliendo plazos y estándares de calidad.</p>
+        </div>
+
+        <!-- Paso 4 -->
+        <div class="process-step reveal reveal-delay-4">
+          <div class="process-step-number">04</div>
+          <h3>Soporte y Seguimiento</h3>
+          <p>Brindamos monitoreo continuo, soporte proactivo y ajustes para mantener tu infraestructura optimizada.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================
+       TESTIMONIALS SECTION
+       ============================================ -->
+  <section class="section testimonials" id="testimonios" aria-label="Testimonios de clientes">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="section-label">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+          Testimonios
+        </div>
+        <h2 class="section-title">Lo que dicen nuestros clientes</h2>
+        <p class="section-subtitle">Empresas que confían en Cornaq para mantener su tecnología funcionando al máximo.</p>
+      </div>
+
+      <div class="testimonials-grid">
+        <!-- Testimonio 1 -->
+        <div class="testimonial-card reveal reveal-delay-1">
+          <svg class="testimonial-quote-icon" viewBox="0 0 24 24" fill="currentColor"><path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10H14.017zM0 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151C7.546 6.068 5.983 8.789 5.983 11H10v10H0z"/></svg>
+
+          <div class="testimonial-stars" aria-label="5 estrellas">
+            <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          </div>
+
+          <p class="testimonial-text">"Desde que Cornaq se hizo cargo de nuestra infraestructura, las caídas de sistema se redujeron a cero. Su equipo responde en minutos y siempre tiene una solución. Los recomendamos sin dudas."</p>
+
+          <div class="testimonial-author">
+            <div class="testimonial-avatar">MG</div>
+            <div class="testimonial-author-info">
+              <strong>Martín García</strong>
+              <span>Director de Operaciones, Logística Sur S.A.</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Testimonio 2 -->
+        <div class="testimonial-card reveal reveal-delay-2">
+          <svg class="testimonial-quote-icon" viewBox="0 0 24 24" fill="currentColor"><path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10H14.017zM0 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151C7.546 6.068 5.983 8.789 5.983 11H10v10H0z"/></svg>
+
+          <div class="testimonial-stars" aria-label="5 estrellas">
+            <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          </div>
+
+          <p class="testimonial-text">"Necesitábamos implementar trabajo remoto seguro en menos de una semana. Cornaq configuró toda nuestra VPN y capacitó al equipo. Profesionalismo y velocidad impresionantes."</p>
+
+          <div class="testimonial-author">
+            <div class="testimonial-avatar">CL</div>
+            <div class="testimonial-author-info">
+              <strong>Carolina López</strong>
+              <span>Gerente General, Estudio Contable López & Asoc.</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Testimonio 3 -->
+        <div class="testimonial-card reveal reveal-delay-3">
+          <svg class="testimonial-quote-icon" viewBox="0 0 24 24" fill="currentColor"><path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10H14.017zM0 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151C7.546 6.068 5.983 8.789 5.983 11H10v10H0z"/></svg>
+
+          <div class="testimonial-stars" aria-label="5 estrellas">
+            <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            <svg viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          </div>
+
+          <p class="testimonial-text">"Cornaq migró todos nuestros servidores a un entorno virtualizado sin que perdiéramos un solo minuto de operación. Su conocimiento técnico y planificación son de primer nivel."</p>
+
+          <div class="testimonial-author">
+            <div class="testimonial-avatar">RA</div>
+            <div class="testimonial-author-info">
+              <strong>Roberto Álvarez</strong>
+              <span>CTO, Distribuidora Nacional S.R.L.</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================
+       CONTACT SECTION
+       ============================================ -->
+  <section class="section contact" id="contacto" aria-label="Formulario de contacto">
+    <div class="container">
+      <div class="contact-grid">
+        <!-- Info Column -->
+        <div class="contact-info reveal">
+          <div class="section-label">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+            Contacto
+          </div>
+          <h3>¿Listo para optimizar tu infraestructura IT?</h3>
+          <p>Contanos sobre tu empresa y tus necesidades. Nuestro equipo se pondrá en contacto para brindarte una evaluación sin cargo.</p>
+
+          <div class="contact-details">
+            <div class="contact-detail">
+              <div class="contact-detail-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              </div>
+              <div class="contact-detail-text">
+                <strong>Ubicación</strong>
+                <span>Buenos Aires, Argentina</span>
+              </div>
+            </div>
+
+            <div class="contact-detail">
+              <div class="contact-detail-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+              </div>
+              <div class="contact-detail-text">
+                <strong>Email</strong>
+                <span><a href="mailto:cornaqit@gmail.com">cornaqit@gmail.com</a></span>
+              </div>
+            </div>
+
+            <div class="contact-detail">
+              <div class="contact-detail-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+              </div>
+              <div class="contact-detail-text">
+                <strong>Teléfono</strong>
+                <span><a href="tel:+541171044621">+54 11 7104-4621</a></span>
+              </div>
+            </div>
+
+            <div class="contact-detail">
+              <div class="contact-detail-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+              </div>
+              <div class="contact-detail-text">
+                <strong>Horario de atención</strong>
+                <span>Lunes a Sábados: 08:00 - 18:00</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Form Column -->
+        <div class="contact-form-wrapper reveal reveal-delay-2">
+          <form id="contact-form" aria-label="Formulario de contacto">
+            <div class="form-row">
+              <div class="form-group">
+                <label for="contact-name">Nombre completo</label>
+                <input type="text" id="contact-name" name="name" placeholder="Tu nombre" required autocomplete="name">
+              </div>
+              <div class="form-group">
+                <label for="contact-company">Empresa</label>
+                <input type="text" id="contact-company" name="company" placeholder="Nombre de tu empresa" required>
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label for="contact-email">Email corporativo</label>
+                <input type="email" id="contact-email" name="email" placeholder="tu@empresa.com" required autocomplete="email">
+              </div>
+              <div class="form-group">
+                <label for="contact-phone">Teléfono</label>
+                <input type="tel" id="contact-phone" name="phone" placeholder="+54 11 7104-4621" autocomplete="tel">
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="contact-message">¿En qué podemos ayudarte?</label>
+              <textarea id="contact-message" name="message" placeholder="Contanos brevemente sobre tu necesidad o proyecto..." rows="5" required></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary form-submit" id="form-submit-btn">
+              Solicitar asesoramiento
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+            </button>
+          </form>
+
+          <!-- Success Message -->
+          <div class="form-success" id="form-success">
+            <div class="form-success-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+            </div>
+            <h3>¡Mensaje enviado!</h3>
+            <p>Nos pondremos en contacto a la brevedad. Gracias por confiar en Cornaq.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================
+       FOOTER
+       ============================================ -->
+  <footer class="footer" id="footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-grid">
+        <!-- Brand -->
+        <div class="footer-brand">
+          <a href="#" class="logo" aria-label="Cornaq IT — Inicio">
+            <img src="images/logo-cornaq.jpg" alt="Cornaq Consultoría IT" class="custom-logo">
+          </a>
+          <p>Consultoría IT especializada en soluciones de infraestructura, soporte técnico y tecnología para empresas en Buenos Aires, Argentina.</p>
+
+          <div class="footer-social">
+            <a href="#" aria-label="LinkedIn">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+            </a>
+            <a href="#" aria-label="Instagram">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+            </a>
+            <a href="#" aria-label="Twitter / X">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"/></svg>
+            </a>
+            <a href="#" aria-label="WhatsApp">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- Servicios -->
+        <div class="footer-column">
+          <h4>Servicios</h4>
+          <ul>
+            <li><a href="#servicios">Soporte Técnico</a></li>
+            <li><a href="#servicios">Servidores</a></li>
+            <li><a href="#servicios">Redes Empresariales</a></li>
+            <li><a href="#servicios">Seguridad Informática</a></li>
+            <li><a href="#servicios">Backup y Recuperación</a></li>
+          </ul>
+        </div>
+
+        <!-- Empresa -->
+        <div class="footer-column">
+          <h4>Empresa</h4>
+          <ul>
+            <li><a href="#nosotros">Sobre Nosotros</a></li>
+            <li><a href="#proceso">Cómo Trabajamos</a></li>
+            <li><a href="#testimonios">Testimonios</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+          </ul>
+        </div>
+
+        <!-- Contacto -->
+        <div class="footer-column">
+          <h4>Contacto</h4>
+          <ul>
+            <li><a href="mailto:cornaqit@gmail.com">cornaqit@gmail.com</a></li>
+            <li><a href="tel:+541171044621">+54 11 7104-4621</a></li>
+            <li><a href="#contacto">Buenos Aires, Argentina</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2023 — 2025 Cornaq Consultoría IT. Todos los derechos reservados.</p>
+        <div class="footer-bottom-links">
+          <a href="#">Política de privacidad</a>
+          <a href="#">Términos y condiciones</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to Top -->
+  <button class="back-to-top" id="back-to-top" aria-label="Volver arriba">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="18 15 12 9 6 15"/></svg>
+  </button>
+
+  <!-- JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
